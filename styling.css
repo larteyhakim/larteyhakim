@@ -68,7 +68,7 @@ li{
 /* tablets and under*/
 @media (max-width:768px){
     .hero-image
-    {
+    {height:auto;
       
     }
 }
