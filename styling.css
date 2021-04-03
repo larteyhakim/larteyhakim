@@ -1,5 +1,7 @@
 
-
+img{
+    width: 100%;
+}
 body{
     background-color: grey;
  margin:0;
@@ -74,7 +76,8 @@ li{
 }
 
 @media  (max-width:500px){
-    .hero-text{
-     
-    }
+    .topnavbarright a {
+        float: none;
+        display: block
+}
 }
