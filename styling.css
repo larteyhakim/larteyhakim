@@ -2,6 +2,12 @@
 img{
     width: 100%;
 }
+
+.gridimages {
+    width: 400px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+}
 body{
     background-color: grey;
  margin:0;
@@ -74,7 +80,7 @@ li{
 
 /* Font css */
 .footer-basic {
-    padding:30px 0;
+    padding:40px 0;
     background-color:#333;
     color:white;
   }
