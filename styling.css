@@ -4,10 +4,12 @@ img{
 }
 
 .gridimages {
-    width: 400px; /* You can set the dimensions to whatever you want */
-    height: 200px;
+    width: 400px; 
     object-fit: cover;
+    height: 200px;
 }
+
+
 body{
     background-color: grey;
  margin:0;
@@ -77,6 +79,35 @@ li{
     line-height:10px;
 }
 
+
+#cmheader {
+    text-align:center;
+}
+
+/* map */
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+/* contact form css */
+.card {
+  
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding:20px;
+    margin:10px;
+   color: blue;
+}
 
 /* Font css */
 .footer-basic {
